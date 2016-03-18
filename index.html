@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Prueba | LCCOpen.tech</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/prueba.css">
+</head>
+<body>
+
+	<br><br>
+
+	<div class="container">		
+
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<img class="center-block" id="logo" src="img/logo.png" alt="">
+			</div>
+		</div>
+
+		<br><br>
+		
+		<div class="row">
+
+			<div class="col-md-6 col-md-offset-3">
+
+			<!-- formulario -->
+				<form id="formulario" src="">
+
+					<div class="form-group">
+
+						<label for="busqueda">Búsqueda de ropa y equipos deportivos</label>
+
+						<div class="input-group">
+							<input type="text" class="form-control" id="busqueda" placeholder="Introduzca su búsqueda">
+
+							<span class="input-group-btn">
+								<button type="submit" id="botonSubmit" class="btn btn-default"> Enviar </button>	
+							</span>
+						</div>
+
+
+					</div>
+				</form>
+
+				
+			</div>
+		</div>
+
+		<!-- palabras relevantes -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+			<div id="palabras-relevantes"></div>
+			</div>
+		</div>
+
+		<!-- resultados -->
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<div id="resultado"></div>
+			</div>
+		</div>
+
+
+	</div>
+
+
+	<script src="js/jQuery-v1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/coincidencias.js"></script>
+	<script src="js/formulario.js"></script>
+	<script src="js/palabras-relevantes.js"></script>
+</body>
+</html>
